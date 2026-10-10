@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magic Cursors & Letterbox</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Animated Bubbles -->
+  <div class="ambient-decor">
+    <div class="bubble b1"></div>
+    <div class="bubble b2"></div>
+    <div class="bubble b3"></div>
+    <div class="bubble b4"></div>
+    <div class="bubble b5"></div>
+  </div>
+
+  <!-- Navigation Tabs -->
+  <div class="page-nav-bar">
+    <button class="nav-tab" data-target="page-cursors">✨ Magic Cursors</button>
+    <button class="nav-tab active" data-target="page-letterbox">💌 Fancy Letterbox</button>
+  </div>
+
+  <div class="container">
+    
+    <!-- PAGE 1: MAGIC CURSORS -->
+    <div id="page-cursors" class="page-view">
+      <header class="header">
+        <h1 class="main-title">Magic Cursors</h1>
+        <p class="slogan">Keep your mind relaxed and personalize your new cursors from other packs.</p>
+      </header>
+
+      <div class="grid">
+  <!-- Original Cursors -->
+  <div class="card" data-cursor="neon-saber">
+    <div class="icon-wrap">🗡️</div>
+    <h3>Neon Saber</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="pixel-retro">
+    <div class="icon-wrap">👾</div>
+    <h3>Pixel Retro</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="cyberpunk">
+    <div class="icon-wrap">🤖</div>
+    <h3>Cyberpunk</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="crosshair">
+    <div class="icon-wrap">🎯</div>
+    <h3>Crosshair</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="magic-wand">
+    <div class="icon-wrap">🪄</div>
+    <h3>Magic Wand</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="heart">
+    <div class="icon-wrap">❤️</div>
+    <h3>Heart</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="skull">
+    <div class="icon-wrap">💀</div>
+    <h3>Skull</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="ghost">
+    <div class="icon-wrap">👻</div>
+    <h3>Ghost</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <!-- Additional Cursors -->
+  <div class="card" data-cursor="lightning-bolt">
+    <div class="icon-wrap">⚡</div>
+    <h3>Lightning Bolt</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="starry-night">
+    <div class="icon-wrap">🌟</div>
+    <h3>Starry Night</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="blazing-fire">
+    <div class="icon-wrap">🔥</div>
+    <h3>Blazing Fire</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="ice-shard">
+    <div class="icon-wrap">❄️</div>
+    <h3>Ice Shard</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="royal-crown">
+    <div class="icon-wrap">👑</div>
+    <h3>Royal Crown</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="music-note">
+    <div class="icon-wrap">🎵</div>
+    <h3>Music Note</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="space-rocket">
+    <div class="icon-wrap">🚀</div>
+    <h3>Space Rocket</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="nature-leaf">
+    <div class="icon-wrap">🍃</div>
+    <h3>Nature Leaf</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="shiny-diamond">
+    <div class="icon-wrap">💎</div>
+    <h3>Shiny Diamond</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="ninja-star">
+    <div class="icon-wrap">🥷</div>
+    <h3>Ninja Star</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="happy-smile">
+    <div class="icon-wrap">😊</div>
+    <h3>Happy Smile</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+  <div class="card" data-cursor="protective-shield">
+    <div class="icon-wrap">🛡️</div>
+    <h3>Protective Shield</h3>
+    <p>Click to apply this cursor.</p>
+  </div>
+</div>
+            <p>Click to apply this cursor.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="playground-section">
+        <h2>Interactive Playground</h2>
+        <p>Test your chosen cursors on these interactive elements.</p>
+        <div class="play-zone">
+          <button class="play-btn">Test Button</button>
+          <input type="text" class="play-input" placeholder="Type here to test cursor...">
+          <a href="#" class="play-link">Hover this link...</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- PAGE 2: LETTERBOX -->
+    <div id="page-letterbox" class="page-view active">
+      <div class="letterbox-wrapper">
+        
+        <!-- Controls Toolbar -->
+        <div class="letter-controls">
+          <div class="control-group">
+            <label for="fontSelect">Select Font</label>
+            <select id="fontSelect"></select>
+          </div>
+
+          <div class="control-group">
+            <label for="textColor">Text Color</label>
+            <input type="color" id="textColor" value="#ffffff">
+          </div>
+
+          <div class="control-group">
+            <label for="textSize">Text Size</label>
+            <input type="range" id="textSize" min="16" max="48" value="28">
+          </div>
+
+          <div class="control-group">
+            <label for="themeSelect">Card Theme</label>
+            <select id="themeSelect">
+              <option value="theme-glass">Glass Glow</option>
+              <option value="theme-pastel-pink">Pastel Pink</option>
+              <option value="theme-lavender">Soft Lavender</option>
+              <option value="theme-mint">Mint Breeze</option>
+              <option value="theme-peach">Peach Melba</option>
+              <option value="theme-sky-blue">Sky Blue</option>
+              <option value="theme-aurora">Aurora Glow</option>
+              <option value="theme-midnight">Midnight Dark</option>
+              <option value="theme-parchment">Vintage Letter</option>
+              <option value="theme-dudububu">Dudu & Bubu ✨</option>
+              <option value="theme-custom">Custom Theme</option>
+            </select>
+          </div>
+
+          <div class="control-group" id="customThemeControls" style="display: none;">
+            <label>Card Colors</label>
+            <div style="display: flex; gap: 8px;">
+              <input type="color" id="customBgColor" value="#1e293b" title="Card Background">
+              <input type="color" id="customBorderColor" value="#38bdf8" title="Card Border">
+            </div>
+          </div>
+        </div>
+
+        <!-- Output Canvas Card -->
+        <div class="letter-card theme-glass" id="letterCard">
+          <div class="letter-header">
+            <span class="letter-tag">A Note For You</span>
+            <span class="letter-badge">Magic Letter ✨</span>
+          </div>
+
+          <!-- Dudu Bubu Animation Layer -->
+          <div class="dudu-bubu-container">
+            <img src="dudu.png" alt="Dudu" class="char dudu">
+            <img src="bubu.png" alt="Bubu" class="char bubu">
+          </div>
+
+          <!-- Main Text Area -->
+          <textarea id="letterInput" placeholder="Write your letter, quote, or secret message here..."></textarea>
+
+          <div class="letter-footer">
+            <span class="watermark">Sent with Magic Cursors</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
